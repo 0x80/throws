@@ -1,5 +1,5 @@
 {
-  "name": "throws",
+  "name": "@codecompose/throws",
   "version": "1.0.0",
   "description": "A Typescript assertion that only throws on null and undefined",
   "type": "module",
