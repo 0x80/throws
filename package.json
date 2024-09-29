@@ -1,0 +1,45 @@
+{
+  "name": "throws",
+  "version": "1.0.0",
+  "description": "A Typescript assertion that only throws on null and undefined",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "prepare": "pnpm build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x80/throws.git"
+  },
+  "keywords": [
+    "typescript",
+    "assert",
+    "invariant",
+    "null",
+    "undefined",
+    "throw"
+  ],
+  "author": "Thijs Koerselman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x80/throws/issues"
+  },
+  "homepage": "https://github.com/0x80/throws#readme",
+  "packageManager": "pnpm@9.8.0+sha256.56a9e76b51796ca7f73b85e44cf83712862091f4d498c0ce4d5b7ecdc6ba18f7",
+  "devDependencies": {
+    "@codecompose/typescript-config": "^1.0.5",
+    "prettier": "^3.3.3",
+    "prettier-plugin-jsdoc": "^1.3.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  }
+}
